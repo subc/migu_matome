@@ -7,4 +7,3 @@ type PageKeywordRelation struct {
 	KeywordID *int `migu:"index:ix_page_keyword_relation_keyword_id"`
 }
 
-

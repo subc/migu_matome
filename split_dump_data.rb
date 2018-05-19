@@ -44,11 +44,11 @@ def generate_gofile(lines, db_name)
   # body生成
   if disable_import_time
     body = body_header + "\n"
-    body += lines.join('') + "\n"
+    body += lines.join('')
   else
     body = body_header
     body += body_import + "\n\n"
-    body += lines.join('') + "\n"
+    body += lines.join('')
   end
 
   # ファイルに書く

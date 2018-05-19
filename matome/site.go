@@ -14,4 +14,3 @@ type Site struct {
 	AdType               *int
 }
 
-

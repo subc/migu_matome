@@ -13,4 +13,3 @@ type Site3 struct {
 	BackgroundImageCount *int
 	AdType               *int
 }
-

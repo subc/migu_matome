@@ -17,4 +17,3 @@ type Page struct {
 	DeleteAt  *time.Time
 }
 
-

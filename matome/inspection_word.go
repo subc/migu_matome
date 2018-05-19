@@ -6,4 +6,3 @@ type InspectionWord struct {
 	Word *string `migu:"unique,size:30"`
 }
 
-
